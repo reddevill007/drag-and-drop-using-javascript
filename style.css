@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(89.8deg, rgb(39, 115, 255) 4.3%, rgb(62, 211, 232) 101.4%);
+    color: #fff;
+}
+
+.drag-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    gap: 30px;
+}
+
+.box {
+    width: 280px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(89.8deg, rgb(39, 115, 255) 4.3%, rgb(62, 211, 232) 101.4%);
+    color: #fff;
+}
+
+.draggable {
+    margin: 5px;
+    padding: 10px;
+    background-color: #3498db;
+    cursor: grab;
+    user-select: none;
+    border-radius: 3px;
+}
